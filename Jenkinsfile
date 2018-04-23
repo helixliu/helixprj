@@ -11,7 +11,6 @@ pipeline {
       parallel {
         stage('Build') {
           steps {
-            sh 'npm install'
             echo 'Hello'
             sh 'echo 123'
           }
